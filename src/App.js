@@ -12,6 +12,11 @@ class App extends Component{
             robots : robots,
             searchfield: ''
         }
+        console.log("constructor");
+    }
+
+    componentDidMount(){
+        console.log("componentDidMount");
     }
 
     onSearchChange = (event)=> {
